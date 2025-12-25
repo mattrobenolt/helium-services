@@ -1,12 +1,3 @@
-# private files
-private
-
-# environment variables
-.env
-
-# ansible hosts file
-deploy/hosts.yml
-
-# compose override file
-compose.override.yml
-!deploy/**/compose.override.yml
+.wrangler/
+node_modules/
+.dev.vars

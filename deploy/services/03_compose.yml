@@ -1,8 +1,0 @@
----
-- name: Bring services up
-  strategy: linear
-  hosts: servers
-  gather_facts: false
-
-  tasks:
-    - ansible.builtin.include_tasks: ./tasks/03_compose.yml
